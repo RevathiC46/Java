@@ -48,11 +48,11 @@ class SimpleCalculator extends Frame implements ActionListener
   b4.addActionListener(this);
   b5.addActionListener(this);
   f1.setLayout(null);
-  f1.setSizeVisible(true);
+  f1.setVisible(true);
   l1.setForeground(Color.red);
   l2.setForeground(Color.red);
   l3.setForeground(Color.red);
-  l4.setForeground(Color.pink);
+  f1.setForeground(Color.pink);
   }
  public void actionPerformed(ActionEvent e)
  {
